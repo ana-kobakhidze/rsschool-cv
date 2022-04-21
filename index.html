@@ -1,7 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="UTF-8">
+    <title>Juno</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -11,19 +13,20 @@
     </header>
 
     <!-- //// summary -->
-    <section id="main">
-        <section id="summary">
+    <div id="main">
+        <div id="summary">
             <p>
                 Started career as a graphic designer, have 7 years of experience in conceptualizing and managing digital marketing campaigns over social media and other mediums, and specialized in rebranding projects. I almost have no working experience in this field,
                 but I'm a very fast learner and motivated. My daily routine includes reading technical documentation, doing quizzes, and watching tutorials. I believe that my willingness to learn and ability to acquire new skills will help me become an
                 experienced Frontend Developer.
             </p>
-        </section>
+        </div>
+
 
 
         <!--//// experience-->
 
-        <section id="experience">
+        <div id="experience">
             <ul>
                 <li> <a href="https://ana-kobakhidze.github.io/redberry-form/" target="_blank">Wizard Form</a></li>
                 <li> <a href="https://ana-kobakhidze.github.io/random-quotes/" target="_blank">Random Quotes</a></li>
@@ -32,20 +35,20 @@
                 <li> <a href="https://ana-kobakhidze.github.io/markdown-previewer/" target="_blank">Markdown previewer</a></li>
                 <li> <a href="https://github.com/ana-kobakhidze/PDP" target="_blank">E-commerce pages</a></li>
             </ul>
-        </section>
+        </div>
 
         <!-- //// language -->
 
-        <section id="language">
+        <div id="language">
             <ul>
                 <li>ENGLISH<br> listening B2 | reading B2 | writing B1 <br> spoken production B2 | spoken interaction B2</li>
                 <li>RUSSIAN<br> listening B2 | reading B2 | writing B1 <br> spoken production B2 | spoken interaction B2</li>
                 <li>GEORGIAN | native</li>
             </ul>
-        </section>
+        </div>
 
         <!-- //// skills -->
-        <section id="skills">
+        <div id="skills">
             <ul class="rightSide">
                 <li>Adobe Photoshop</li>
                 <li>Adobe Illustrator</li>
@@ -63,10 +66,10 @@
                 <li>VS Code</li>
             </ul>
 
-        </section>
+        </div>
 
         <!-- //// contact -->
-        <section id="contact">
+        <div id="contact">
             <ul>
                 <li>+995 599 54 79 74</li>
                 <li>ana.s.kobakhidze@gmail.com</li>
@@ -74,42 +77,37 @@
                 <li>https://github.com/ana-kobakhidze</li>
                 <li>https://www.behance.net/annakooo</li>
             </ul>
-        </section>
+        </div>
 
         <!-- //// education -->
-        <section id="education">
+        <div id="education">
             <ul class="rightSide">
                 <li>Introduction to computer sience in JS</li>
-                <hr>
                 <li>Html / Css course</li>
-                <hr>
                 <li>Javascript Algorithms and Data structures</li>
-                <hr>
                 <li>React-the complete guide</li>
-                <hr>
                 <li>JavaScript/Front-end</li>
             </ul>
 
             <ul>
                 <li>Codehs</li>
-                <hr>
                 <li>W3schools</li>
-                <hr>
                 <li>FreeCodeCamp</li>
-                <hr>
                 <li>Udemy</li>
-                <hr>
                 <li>RS Schools Course</li>
 
             </ul>
-        </section>
-        <section id="code">
-            <p>Create a function that looks through an array arr and returns the first element in it that passes a ‘truth test’. This means that given an element x, the ‘truth test’ is passed if func(x) is true. If no element passes the test, return undefined.</p>
+        </div>
+
+        <!-- code -->
+        <div id="code">
+            <p>Create a function that looks through an array arr and returns the first element in it that passes a ‘truth test’. This means that given an element x, the ‘truth test’ is passed if func(x) is true. If no element passes the test, return undefined.
+            </p>
             <pre>
 <code>
  function findElement(arr, func) {
      let num = 0;
-     for (let i = 0; i < arr.length; i++) {
+     for (let i = 0; i 	&lt; arr.length; i++) {
        num = arr[i];
        if (func(num)) {
          return num;
@@ -118,8 +116,10 @@
  }
 </code>
 </pre>
-        </section>
-    </section>
+        </div>
+
+    </div>
+
     <!-- //// navigation links -->
 
     <nav id="navLinks">
@@ -132,20 +132,21 @@
         <a href="#code">code</a>
     </nav>
 
+
     <!-- //// footer -->
-    <section>
-        <img id="breakline" src="https://i.postimg.cc/QCP8tmTx/break-line.png" alt="line" width="530px" height="auto">
 
-        <footer id="footer-info">
-            <a href="https://rs.school/" target="_blank"><img src="https://i.postimg.cc/YC9LnDpj/rs-school-logo.png" alt="rs-school-logo" width="auto" height="30px"></a>
+    <img id="breakline" src="https://i.postimg.cc/QCP8tmTx/break-line.png" alt="#">
 
-            <p>16.04.2022</p>
-            <a href="#">Ana Kobakhidze</a>
-            <a href="https://github.com/ana-kobakhidze" target="_blank"><img src="https://i.postimg.cc/gkyKF7FD/git-logo.png" alt="git-logo" width="auto" height="30px"></a>
-            <footer>
-    </section>
+    <footer id="footer-info">
+        <a href="https://rs.school/" target="_blank"><img class="footer-image" src="https://i.postimg.cc/YC9LnDpj/rs-school-logo.png" alt="rs-school-logo"></a>
 
-    </section>
+        <p>16.04.2022</p>
+        <a href="#">Ana Kobakhidze</a>
+        <a href="https://github.com/ana-kobakhidze" target="_blank"><img class="footer-image" src="https://i.postimg.cc/gkyKF7FD/git-logo.png" alt="git-logo"></a>
+    </footer>
+
+
+
 </body>
 
 </html>
