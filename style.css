@@ -27,13 +27,17 @@ body {
   height: 212px;
   overflow: auto;
 }
+#main::-webkit-scrollbar {
+  display: none;
+}
 
 #summary,
 #experience,
 #language,
 #skills,
 #contact,
-#education {
+#education,
+#code {
   position: relative;
   width: 30%;
   height: 212px;
@@ -98,13 +102,24 @@ hr {
   position: relative;
   top: 220px;
   font-size: 16px;
-  width: 528px;
-  left: 100px;
+  width: 495px;
+  left: 107px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
+
 #navLinks a {
   text-decoration: none;
   color: #e4ccdf;
+  opacity: 0.5;
+}
+
+#navLinks a:active {
+  cursor: pointer;
+  opacity: 1;
+}
+#navLinks a:hover {
+  cursor: pointer;
+  opacity: 1;
 }
