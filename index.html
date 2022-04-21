@@ -115,8 +115,27 @@
 
 </ul>
 </section>
+
+<!-- code examples -->
 </section>
-<!-- //// navigation links -->
+<section id="code">
+<p>Create a function that looks through an array arr and returns the first element in it that passes a ‘truth test’. This means that given an element x, the ‘truth test’ is passed if func(x) is true. If no element passes the test, return undefined.</p>
+<pre>
+<code>
+ function findElement(arr, func) {
+     let num = 0;
+     for (let i = 0; i < arr.length; i++) {
+       num = arr[i];
+       if (func(num)) {
+         return num;
+      }}
+     return undefined;
+ }
+</code>
+</pre>
+</section>
+</section>
+<!-- navigation links -->
 
 <nav id="navLinks" >
 <a href="#summary">summary</a>
@@ -127,7 +146,7 @@
 <a href="#education">education</a>
 </nav>
 
-<!-- //// footer -->
+<!-- footer -->
         <section>
           <img id="breakline"src="https://i.postimg.cc/QCP8tmTx/break-line.png" alt="line" width="530px" height="auto">
 

@@ -64,6 +64,15 @@ hr {
   float: right;
   margin: 0;
 }
+#code p {
+  font-size: 14px;
+  line-height: 16px;
+}
+#code pre {
+  margin: 0;
+  font-size: 12px;
+  line-height: 14px;
+}
 #breakline {
   position: relative;
   top: 205px;
